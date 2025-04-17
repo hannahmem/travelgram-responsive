@@ -22,6 +22,12 @@ nav {
         & .hidden {
             display: none;
         }
+
+        & button  {
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
     }
 }
 
