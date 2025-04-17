@@ -1,0 +1,25 @@
+.grid {
+    max-width: 100%;
+    padding: 1em;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    
+}
+
+.grid-img {
+    width: 100%;
+}
+
+@media (width >= 40em) {
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    }
+}
+
+@media (width >= 57.5em) {
+    .grid {
+        gap: 1.5rem;
+        padding: 1.5em 2em;
+    }
+}

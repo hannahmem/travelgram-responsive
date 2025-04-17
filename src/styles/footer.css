@@ -1,0 +1,27 @@
+footer {
+    margin: 1em 0;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.termos {
+    margin-top: 1em;
+
+    & a + a {
+        margin-left: 1em;
+    }
+}
+
+@media (width >= 51.25em) {
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2em;
+        margin: 1em 0 1.5em;
+    }
+
+    .termos {
+        margin-top: 0;
+    }
+}
