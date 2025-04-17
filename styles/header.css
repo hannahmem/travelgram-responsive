@@ -57,6 +57,14 @@ nav {
     }
 }
 
+@media (width >= 40em) {
+    nav .nav-items {
+            & .hidden {
+                display: inline;
+            }
+        }
+}
+
 @media (width >= 51.25em) {
     .container {
         width: 95%;
@@ -96,3 +104,4 @@ nav {
         width: 45%;
     }
 }
+
